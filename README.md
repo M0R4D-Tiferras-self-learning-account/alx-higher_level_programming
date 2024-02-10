@@ -1,4 +1,8 @@
-![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
+<div align="center">
+    <img src="https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png" alt="ALX Logo">
+</div>
+
+<br> </br>
 
 <h1>## ALX High Level Programing </h1>
 $>  High level programming tasks as a software Engineering student at ALX Africa, sprint 2 - Python and Javascript
