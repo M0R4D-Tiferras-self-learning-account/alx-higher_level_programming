@@ -3,7 +3,10 @@
 import sys
 
 if __name__ == "__main__":
-    from calculator_1 import add, sub, mul, div
+    from calculator_1 import add
+    from calculator_1 import sub
+    from calculator_1 import mul
+    from calculator_1 import div
     if len(sys.argv) == 4:
         if sys.argv[2] == "+":
             print(add(int(sys.argv[1]), int(sys.argv[3])))
@@ -16,6 +19,6 @@ if __name__ == "__main__":
         else:
             print("Unknown operator. Available operators: +, -, * and / ")
             sys.exit("1")
-    else:
+    elif len(sys.argv) != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit("1")
