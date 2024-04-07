@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""Initiallizing Square class"""
+"""Defining a class called square"""
 
 
 class Square:
@@ -11,6 +11,15 @@ class Square:
         size (int): The size of the square.
     """
     def __init__(self, size=0):
+        """A constractor function
+
+        Args:
+            size (int): The size of the square
+
+        Raises:
+            ValueError: The size must be a non-zero integer
+            TypeError: The size must be a non-zero integer
+        """
         if type(size) == int:
             if size > 0:
                 self.size = size
