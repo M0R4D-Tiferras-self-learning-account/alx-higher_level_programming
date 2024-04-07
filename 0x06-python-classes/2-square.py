@@ -20,12 +20,10 @@ class Square:
             ValueError: The size must be a non-zero integer
             TypeError: The size must be a non-zero integer
         """
-        if type(size) == int:
+        if not isinstance(size, int):
             if size > 0:
                 self.size = size
-                return
             elif size < 0:
                 raise ValueError("size must be >= 0")
-                return
         else:
             raise TypeError("size must be an integer")
