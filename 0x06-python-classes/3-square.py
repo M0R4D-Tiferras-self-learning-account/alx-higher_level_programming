@@ -1,4 +1,4 @@
-#/bin/usr/python3
+#!/bin/usr/python3
 
 """Defining a class called square"""
 
@@ -18,7 +18,7 @@ class Square:
                 raise ValueError("size must be >= 0")
         except TypeError:
             raise TypeError("size must be an integer")
-    
+
     def area(self):
         """A function that return the area of the square
         """
