@@ -11,12 +11,17 @@ class Square:
         size (int): The size of the square.
     """
     def __init__(self, size=0):
-        try:
+        """Creates new instances of the square
+
+        Args:
+            size (int): size of the square
+        """
+        if type(size) == int:
             if size >= 0 and type(size) == int:
                 self.__size = size
             else:
                 raise ValueError("size must be >= 0")
-        except TypeError:
+        else:
             raise TypeError("size must be an integer")
 
     def area(self):
