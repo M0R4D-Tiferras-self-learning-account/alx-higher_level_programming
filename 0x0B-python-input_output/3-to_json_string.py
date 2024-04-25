@@ -11,7 +11,4 @@ def to_json_string(my_obj):
     Args:
         my_obj (string): string to Serialize
     """
-    if not isinstance(my_obj, str):
-        my_obj_s = str(my_obj)
-        return json.dumps(my_obj_s)
     return json.dumps(my_obj)
