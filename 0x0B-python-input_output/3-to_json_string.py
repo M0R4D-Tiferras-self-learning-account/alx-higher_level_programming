@@ -13,4 +13,4 @@ def to_json_string(my_obj):
         my_obj (string): string to Serialize
     """
     to_s = str(my_obj)
-    return json.loads(to_s)
+    return json.dumps(to_s)
