@@ -1,8 +1,7 @@
 #!/usr/bin/python3
+""" 3. To JSON string"""
 
 import json
-
-""" 3. To JSON string"""
 
 
 def to_json_string(my_obj):
@@ -12,7 +11,7 @@ def to_json_string(my_obj):
     Args:
         my_obj (string): string to Serialize
     """
-    to_s = my_obj
-    if not(type(my_obj) == str):
-        to_s = str(my_obj)
-    return json.dumps(to_s)
+    if not isinstance(my_obj, str):
+        my_obj_s = str(my_obj)
+        return json.dumps(my_obj_s)
+    return json.dumps(my_obj)
