@@ -12,5 +12,7 @@ def to_json_string(my_obj):
     Args:
         my_obj (string): string to Serialize
     """
-    to_s = str(my_obj)
+    to_s = my_obj
+    if not(type(my_obj) == str):
+        to_s = str(my_obj)
     return json.dumps(to_s)
