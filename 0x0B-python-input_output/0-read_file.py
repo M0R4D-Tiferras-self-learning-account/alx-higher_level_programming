@@ -1,6 +1,5 @@
 #!/bin/usr/python3
-
-""" A func that rad files"""
+""" A func that read files"""
 
 
 def read_file(filename=""):
