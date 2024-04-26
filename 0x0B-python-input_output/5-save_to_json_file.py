@@ -9,8 +9,8 @@ def save_to_json_file(my_obj, filename):
     using a JSON representation:
 
     Args:
-        my_obj (_type_): _description_
-        filename (_type_): _description_
+        my_obj (_type_): json data
+        filename (_type_): json file
     """
-    with open(filename, 'w', encoding=utf8) as f:
+    with open(filename) as f:
         json.dump(my_obj, f)
