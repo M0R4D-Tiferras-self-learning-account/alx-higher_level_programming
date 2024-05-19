@@ -1,10 +1,5 @@
 #!/bin/usr/python3
 
-"""
-Defining a class called square
-"""
-
-
 class Square:
     """
     A class that represent a square
