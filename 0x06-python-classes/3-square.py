@@ -5,9 +5,6 @@
 class Square:
     """
     A class that represent a square
-
-    Attributes:
-        size (int): The size of the square.
     """
     def __init__(self, size=0):
         """Creates new instances of the square
