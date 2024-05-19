@@ -1,5 +1,4 @@
 #!/bin/usr/python3
-
 """Area of a square"""
 
 
@@ -14,7 +13,7 @@ class Square:
             size (int): size of the square
         """
 
-        if type(size) != int:
+        if type(size) is not int:
             raise TypeError("size must be an integer ")
         if size < 0:
             raise ValueError("size must be >= 0")
