@@ -1,5 +1,4 @@
 #!/bin/usr/python3
-
 """ Area of a square"""
 
 
