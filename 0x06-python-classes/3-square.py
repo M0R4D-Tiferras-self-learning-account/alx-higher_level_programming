@@ -1,10 +1,15 @@
 #!/bin/usr/python3
-""" Area of a square"""
+
+"""Area of a square"""
 
 
 class Square:
     """
     A class that represent a square
+
+    Attributes:
+        size (int): The size of the square.
+        area (int): The area of the square.
     """
     def __init__(self, size=0):
         """Creates new instances of the square
