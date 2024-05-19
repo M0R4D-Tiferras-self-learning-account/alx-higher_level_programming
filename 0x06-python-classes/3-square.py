@@ -6,10 +6,6 @@
 class Square:
     """
     A class that represent a square
-
-    Attributes:
-        size (int): The size of the square.
-        area (int): The area of the square.
     """
     def __init__(self, size=0):
         """Creates new instances of the square
@@ -19,7 +15,7 @@ class Square:
         """
 
         if type(size) != int:
-            raise TypeError("size must be an integer")
+            raise TypeError("size must be an integer ")
         if size < 0:
             raise ValueError("size must be >= 0")
         self.__size = size
